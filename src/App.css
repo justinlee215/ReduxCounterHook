@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.counter {
+  padding: 10px;
+}
+.counterList {
+  border: 1px solid darkblue;
+  padding: 20px;
+  width: 200px;
+}
