@@ -4,6 +4,8 @@ import { connect } from 'react-redux';
 
 const Counter = ({ employee, incrementCounter }) => {
     const { id, name, count } = employee
+
+    console.log('render', id);
     return (
         <div className='counter'>
             <span>{id}, {name}, {count} </span>

@@ -4,6 +4,7 @@ import Counter from './Counter'
 
 
 const CounterList =({ employees }) => {
+    console.log('render list');
     return (
         <div className="counterList">
             <h2>Redux Counter</h2>
